@@ -1,0 +1,6 @@
+framework module TTKeyboardAvoidingScrollView {
+  umbrella header "TTKeyboardAvoidingScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

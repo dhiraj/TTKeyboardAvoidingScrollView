@@ -1,0 +1,16 @@
+PODS:
+  - TTKeyboardAvoidingScrollView (0.1.0)
+
+DEPENDENCIES:
+  - TTKeyboardAvoidingScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  TTKeyboardAvoidingScrollView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TTKeyboardAvoidingScrollView: adcb71a54957b0db11ab89174d01869c3e6022a5
+
+PODFILE CHECKSUM: 653ba3f2addb9490568ce767698178de2f0225f6
+
+COCOAPODS: 1.0.1

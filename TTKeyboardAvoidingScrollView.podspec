@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TTKeyboardAvoidingScrollView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TTKeyboardAvoidingScrollView.'
+  s.summary          = 'A UIScrollView subclass that automatically adjusts its insets to match the keyboard show/hide'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This UIScrollView subclass automatically adjusts its scroll insets to match the keyboard show/hide
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TTKeyboardAvoidingScrollView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/dhiraj/TTKeyboardAvoidingScrollView'
+  s.screenshots     = 'https://cloud.githubusercontent.com/assets/43901/16893494/4180c098-4b57-11e6-95f9-a7216d62c63c.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dhiraj Gupta' => 'dhiraj@traversient.com' }
   s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TTKeyboardAvoidingScrollView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/dhiraj'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '6.0'
 
   s.source_files = 'TTKeyboardAvoidingScrollView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'TTKeyboardAvoidingScrollView' => ['TTKeyboardAvoidingScrollView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'TTKeyboardAvoidingScrollView/Classes/**/*.h'
 end

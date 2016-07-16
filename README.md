@@ -1,6 +1,5 @@
 # TTKeyboardAvoidingScrollView
 
-[![CI Status](http://img.shields.io/travis/Dhiraj Gupta/TTKeyboardAvoidingScrollView.svg?style=flat)](https://travis-ci.org/Dhiraj Gupta/TTKeyboardAvoidingScrollView)
 [![Version](https://img.shields.io/cocoapods/v/TTKeyboardAvoidingScrollView.svg?style=flat)](http://cocoapods.org/pods/TTKeyboardAvoidingScrollView)
 [![License](https://img.shields.io/cocoapods/l/TTKeyboardAvoidingScrollView.svg?style=flat)](http://cocoapods.org/pods/TTKeyboardAvoidingScrollView)
 [![Platform](https://img.shields.io/cocoapods/p/TTKeyboardAvoidingScrollView.svg?style=flat)](http://cocoapods.org/pods/TTKeyboardAvoidingScrollView)
@@ -9,8 +8,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+![Example screenshot](https://cloud.githubusercontent.com/assets/43901/16893494/4180c098-4b57-11e6-95f9-a7216d62c63c.png)
 
+## Requirements
+iOS 6+
 ## Installation
 
 TTKeyboardAvoidingScrollView is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,8 +23,8 @@ pod "TTKeyboardAvoidingScrollView"
 
 ## Author
 
-Dhiraj Gupta, dhiraj@traversient.com
+Dhiraj Gupta, development@traversient.com
 
 ## License
 
-TTKeyboardAvoidingScrollView is available under the MIT license. See the LICENSE file for more info.
+TTKeyboardAvoidingScrollView is available under the Apache license. See the LICENSE file for more info.
