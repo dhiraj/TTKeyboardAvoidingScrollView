@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTKeyboardAvoidingScrollView_Example' do
+  pod 'TTKeyboardAvoidingScrollView', :path => '../'
+
+  target 'TTKeyboardAvoidingScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
