@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TTKeyboardAvoidingScrollView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A UIScrollView subclass that automatically adjusts its insets to match the keyboard show/hide'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ This UIScrollView subclass automatically adjusts its scroll insets to match the 
   s.screenshots     = 'https://cloud.githubusercontent.com/assets/43901/16893494/4180c098-4b57-11e6-95f9-a7216d62c63c.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dhiraj Gupta' => 'dhiraj@traversient.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TTKeyboardAvoidingScrollView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dhiraj/TTKeyboardAvoidingScrollView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/dhiraj'
 
   s.ios.deployment_target = '6.0'
