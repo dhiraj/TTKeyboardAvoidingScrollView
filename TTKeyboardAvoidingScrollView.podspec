@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TTKeyboardAvoidingScrollView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A UIScrollView subclass that automatically adjusts its insets to match the keyboard show/hide'
 
 # This description is used to generate tags and improve search results.
